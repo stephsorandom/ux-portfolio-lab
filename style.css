@@ -1,7 +1,7 @@
 [class*="col-"] {
     width: 100%;
 }
-
+@media only screen and (min-width: 3em)
 body {
     background-color: light grey
 }
@@ -64,6 +64,7 @@ ul {
   display: block;
   max-width: max-content;
   height: max-content;
+  
 }
 
 div {
