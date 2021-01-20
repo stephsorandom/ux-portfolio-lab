@@ -11,6 +11,9 @@ h2 {
     min-height:min-content;
     -webkit-text-size-adjust: auto;
     text-align: center;
+    font-style:italic;
+    font-family:cursive;
+    background-color:mistyrose
 }
 .nav-bar {
     list-style-type: none;
@@ -39,17 +42,29 @@ max-width: 100%;
 height: auto;
 }
 
-#image-size {
-    border: 5px solid black;
+.image-size {
+  border: 5px solid black;
   padding: 5px;
+  margin: 0%;
   border-radius: 6.5%;
+  box-sizing: border-box;
   display: block;
-  max-width: max-content;
+  max-width: min-content;
   height: max-content;
   justify-content: center;
+  
 } 
 footer {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style-type: none;
+}
+h3 {
+    text-align: center;
 }
