@@ -21,13 +21,12 @@ body {
 #content {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
-    line-height: 50px;
-    line-height: 114%;
+    padding-left: 35px;
     vertical-align: top;
     letter-spacing: -1.5%;
     display:flex;
     flex-wrap: wrap;
-    width: stretch;
+    
 }
     
 .nav-bar {
@@ -39,7 +38,7 @@ body {
     justify-content: space-evenly;
 }
 #arrow {
-   padding: 0 0 20px 445px;    
+   padding: 0 0 20px 675px;    
 }
 .arrow article {
     display: flex; 
@@ -104,15 +103,13 @@ h3 {
 #about-pic {
   display:flex;
   height: 375px;
-  width: 494px;
-  left: 1403px;
-  top: 353px;
+  width: 494px; 
   border-radius: 0px;
   left: 64.89%;
   right: 12.26%;
   top: 34.47%;
   bottom: 28.91%;
-  padding-left: 20px;
+  padding-left: 900px;
 }
 
 #c3 {
@@ -123,10 +120,9 @@ h3 {
 
 .image-size-rect {
     margin: 0%;
-    border-radius: 6.5%;
     box-sizing: border-box;
     display:inline-block;
-    width: 100%;
+    width: 75%;
     padding: 0 500px 150px 50px;
   } 
   .image-size-text {
@@ -158,16 +154,25 @@ h3 {
     padding: 0 250px 50px 80px;
   } 
   #c1 {
-      width: 80px;
+      width: 50px;
       height: 30px;
       left: 198px;
       top: 2361px;
   }
 
   #group-image {
-      width: 614px;
-      height: 1504px;
+      width: 500px;
+      height: 1404px;
       top: 2325px;
       left: 740px;
-      padding-left: 300px;
+      padding-left: 800px;
   }
+
+.eclipse {
+    width: 9%;
+    padding-top: 50px;
+    padding-left: 250px;
+    /* display:flex;
+    flex-direction: row;
+    justify-content: center; */
+}
