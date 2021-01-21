@@ -6,14 +6,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: lightgray
 }
-  p{
-      /* font-family: 'Montserrat', sans-serif;
-      font-size: 36px;
-      line-height: 50px;
-      line-height: 114%;
-      vertical-align: top;
-      letter-spacing: -1.5%; */
-  }  
 
 .box {
     display: flex;
@@ -48,14 +40,7 @@ body {
     justify-content: space-evenly;
 }
 #arrow {
-    width: 80px;
-    /* left: 720px; 
-    top: 677px;  */
-    border: 5px solid black;
-    box-sizing: border-box;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+   padding: 0 0 20px 445px;    
 }
 .arrow article {
     display: flex; 
@@ -86,8 +71,8 @@ body {
  {
      .image-size {
          width:50%;
-         
      }
+     
  }
 footer {
     margin: 0;
@@ -159,9 +144,10 @@ h3 {
     padding: 0 20px 50px 20px;
   } 
   .rect-text {
-      box-sizing: content-box;
+      box-sizing:border-box;
       border: 5px solid black;
-      padding: 0 300px 150 px 300px;
+      padding: 0 90px 0 500px;
       display: flex;
-      
+    
+
   }
