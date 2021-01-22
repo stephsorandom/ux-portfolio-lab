@@ -2,15 +2,16 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     background-color: white;
     width: 100vw;
     overflow-x: hidden;
 }
+h1 {
+    font-family:
 
+}
 .box {
-    /* padding-top: 150px;
-    padding-bottom: 155px;
-    padding-left: 100px; */
     padding-top: 100px;
     width: 100vw;
     display: flex;
@@ -29,7 +30,6 @@ body {
 #content {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
-    /* padding-left: 35px; */
     vertical-align: top;
     letter-spacing: -1.5%;
 
@@ -46,22 +46,18 @@ img {
 #babyArrow{
     font-size: 130px;
 }
-#container {
-   
 
-    
-}
+
 #container div {
   
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 200px; */
+    
 
 }
 #container div img{
-
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -135,6 +131,15 @@ footer ul li{
 
 
 /**CASE STYDY*/
+#c1 {
+    width: 50px;
+    height: 30px;
+    left: 198px;
+    top: 2361px;
+    padding-left: 5px;
+}
+
+
 .pg3 {
     border: 2px solid purple;
     display:flex;
@@ -148,20 +153,25 @@ footer ul li{
 .pg3 img {
     width: 50vw;
 }
+.pg1 div {
+    position: relative;
+    top: 0px; 
+    left: 1vw;   
+}
 
 .pg3 div {
     position: relative;
-    border: 1px solid red;
+    border: 3px solid red;
 }
 
 .pg3 .eclipse{
     width: 200px;
 }
 
-.pg3 h4{
+.pg3 h3{
     position:absolute;
-    right:10px;
-    top:20px;
+    right:-19px;
+    top:100px;
 }
 
 .gallery {
@@ -185,18 +195,18 @@ footer ul li{
     align-items: flex-start;
     padding: 20px;
 }
-.pg5 {
-    border: 3px solid red;
-    /* display:flex;
+.pg5 #section3 {
+    border: 3px solid brown;
+    display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start; */
-    width: 48vw;
+    align-items: flex-start; 
     padding: 20px;
-    position: absolute;
-    
-}
+    position: relative;
+    top: -10px;
+    left: 490px;
 
+}
 
 
 
