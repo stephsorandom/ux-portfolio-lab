@@ -1,0 +1,249 @@
+/* [class*="col-"] {
+    width: 100%;
+} */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.box {
+    /* padding-top: 150px;
+    padding-bottom: 155px;
+    padding-left: 100px; */
+    width: 100vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.box p {
+    width: 100vw;
+    max-width: 300px;
+    text-align: center;
+
+} 
+
+#content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    /* padding-left: 35px; */
+    vertical-align: top;
+    letter-spacing: -1.5%;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+    
+/* .nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+#arrow {
+   padding: 0 0 200px 675px;    
+}
+.arrow article {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+
+    
+}
+#container {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-size {
+  margin: 0%;
+  border-radius: 6.5%;
+  box-sizing: border-box;
+  display:inline-block;
+  width: 100%;
+  padding: 20px;
+} 
+
+.pg3.1 {
+   
+}
+
+
+
+
+@media (min-width: 812px) {
+     .image-size {
+         width:50%;
+     }
+
+ }
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+#footer-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+/* .about-me-page {
+    background-color:red;
+    padding-top: 75px;
+} */
+
+
+.small-arrow {
+    width: 23.79px;
+    height: 23px;
+    left: 482px;
+    top: 866.8px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#about-pic {
+  height: 375px;
+  width: 494px; 
+  position: relative;
+  top: -400px;
+  padding-left: 900px;
+}
+
+#c3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 800px;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+
+.image-size-rect {
+    margin: 0.5%;
+    box-sizing: border-box;
+    display:inline-block;
+    width: 75%;
+    padding: 50px 400px 50px 50px;
+  } 
+  .image-size-text {
+    margin: 0%;
+    border-radius: 6.5%;
+    box-sizing: border-box;
+    display:inline-block;
+    width: 90%;
+    padding: 50px 250px 50px 250px;
+  } 
+  .image-size-scis {
+    margin: 0%;
+    width: 97%;
+    padding: 0 20px 50px 20px;
+  } 
+
+  #latinphrase {
+    height: 80px;
+    width: 600px;
+    padding-left: 753px;
+    position: relative;
+    top:-275px
+  }
+  /* .rect-text {
+      box-sizing:border-box;
+      border: 5px solid black;
+      padding: 0 90px 0 500px;
+      display: flex;
+      position: absolute;
+      top: 10px;
+  } */
+
+  .image-size-texts {
+    margin: 0%;
+    border-radius: 6.5%;
+    box-sizing: border-box;
+    display:inline-block;
+    width: 120%;
+    padding: 0 250px 50px 80px;
+  } 
+  #c1 {
+      width: 50px;
+      height: 30px;
+      left: 198px;
+      top: 2361px;
+      padding-left: 35px;
+  }
+
+  #group-image {
+      width: 23%;
+      height: 80%;
+      left: 740px;
+      padding-left: 50px;
+      position:absolute;
+      top: 5400px;
+  }
+
+.eclipse {
+    width: 7%;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+#youtube {
+    width: 40%;
+    padding-left: 750px;
+    position: absolute;
+    top: 6350px;
+
+    
+}
+#pics3 {
+    padding-left: 670px;
+}
+
+.pics3 {
+    width: 15%;
+    position: relative;
+    top: -80px;
+}
+
+#section3 {
+    width: 40%;
+    padding-left: 750px;
+    padding-bottom: 50px;
+    position: relative;
+    top: -400px;
+}
+
+#section6 {
+    width: 1300px;
+    height: 538px;
+    padding-left: 50px;
+}
+
+#end {
+    width: 20%;
+    padding: 50px 20px 90px;
+    padding-left: 120px;
+}
+.middle-pic {
+    width: 40%;
+    padding-left: 750px;
+    padding-bottom: 50px;
+    position: relative;
+    top: -510px;
+}
