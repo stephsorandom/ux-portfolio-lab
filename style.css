@@ -1,15 +1,28 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: 14px;
     background-color: white;
     width: 100vw;
     overflow-x: hidden;
 }
 h1 {
-    font-family:
+    
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 6;
+    line-height: 50px;
+   
 
+}
+p {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16 px;
+    line-height: 24px;
+  
 }
 
 .box {
@@ -29,13 +42,12 @@ h1 {
 } 
 
 #content {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    vertical-align: top;
-    letter-spacing: -1.5%;
-
-    
+font-family: 'Montserrat', sans-serif;
+font-size: 36px;
+vertical-align: top;
+letter-spacing: -1.5%;
 }
+
 header{ 
     background: white;
 }
@@ -45,75 +57,67 @@ img {
 }
 
 #babyArrow{
-    font-size: 130px;
+font-size: 130px;
 }
 
 
 #container div {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
 
 #container div img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin: 50px;
+width: 300px;
+height: 300px;
+object-fit: cover;
+ margin: 50px;
 }
+
+
 
 /**ABOUT */
 
 #about, #casestudy{ 
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
+display: flex;
+flex-direction: column;
+padding-top: 100px;
 }
+
 .topbox {
-    /* border: 2px solid red; */
+ /* border: 2px solid red; */
 }
 .bottombox{
-    /* border: 2px solid green; */
+/* border: 2px solid green; */
 }
 
 .topbox h1 {
- 
-    display:block;
-
+display:block;
 }
 
 .bottombox h1{
- 
-    display: none;
+display: none;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 footer ul{ 
-    display:flex;
-    align-items: center;
-    width: 100vw;
-    justify-content: space-evenly;
+display:flex;
+align-items: center;
+width: 100vw;
+justify-content: space-evenly;
 }
 footer ul li{
-    list-style-type: none;
-   
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+list-style-type: none;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
 }
-
-
-
-
-
-
-
 
 
 
@@ -126,83 +130,150 @@ footer ul li{
 
 /**CASE STYDY*/
 #c1 {
-    width: 50px;
-    height: 30px;
-    left: 198px;
-    top: 2361px;
-    padding-left: 5px;
+width: 50px;
+height: 30px;
+left: 198px;
+top: 2361px;
+padding-left: 5px;
+margin-top: 10%;
 }
 
-
 .pg3 {
-    /* border: 2px solid purple; */
-    display:flex;
-    flex-direction: column;
-    width: 100vw;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
+display:flex;
+flex-direction: column;
+width: 100vw;
+justify-content: space-evenly;
+align-items: center;
+padding: 20px;
 }
 
 .pg3 img {
-    width: 50vw;
+width: 50vw;
 }
 .pg1 div {
-    position: relative;
-    top: 0px; 
-    left: 1vw;   
+position: relative;
+top: 0px; 
+left: 1vw;   
 }
 
 .pg3 div {
-    position: relative;
-    /* border: 3px solid red; */
+position: relative;
 }
 
 .pg3 .eclipse{
-    width: 200px;
+width: 200px;
 }
 
 .pg3 h3{
-    position:absolute;
-    right:-19px;
-    top:100px;
+position:absolute;
+right:-19px;
+top:100px;
 }
 
 .gallery {
-    display:flex;
-    justify-content: center;
+display:flex;
+justify-content: center;
 }
 
 .gallery img{
-    width: 100px;
+width: 100px;
 }
 
 .pg3 #section3 {
-    border: 5px solid black;
-    width: 50%;
- }
+border: 5px solid black;
+width: 50%;
+}
 
- .pg4 {
-    display:flex;
-    flex-direction: column;
-    width: 48vw;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding: 20px;
+.pg4 {
+display:flex;
+flex-direction: column;
+width: 48vw;
+justify-content: space-evenly;
+align-items: flex-start;
+padding: 20px;
 }
 
 .pg5 #section3 {
-    border: 3px solid brown;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start; 
-    padding: 20px;
-    position: relative;
-    top: -10px;
-    left: 490px;
-
+border: 3px solid brown;
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start; 
+padding: 20px;
+position: relative;
+top: -10px;
+left: 490px;
 }
+
+#latinphrase {
+width: 55vw;
+padding-left: 25vw;
+}
+
+.rect-text {
+width: 45%;
+position: absolute;
+top: 90px;
+padding-left: 52vw;
+}
+
+.image-size-rect { 
+padding-right: 50vw;
+}
+
+.thechallenge {
+margin-top: 5vw;
+margin-bottom: 5vw;
+width: 30vw;
+padding-left: 40vw;
+} 
+
+#ouragenda {
+width: 20%;
+padding-left: 40vw;
+margin: 2vw;
+}
+
+#c9 {
+width: 45vw;
+}
+
+#graph1 {
+width: 50%;
+padding-left: 48%;
+position: relative;
+top: -20vw;
+height: 90%;
+}
+
+.eclipse {
+width: 52%;
+padding-top: 5vw;
+}
+
+#brain {
+border: 3px solid red;
+width: 45%;
+padding-left: 52vw;
+position: relative; 
+top: -37vw;
+}
+#brain {
+border: 3px solid red;
+width: 45%;
+    padding-left: 52vw;
+    position: relative; 
+    top: -37vw;
+    }
+#c8 {
+width: 45vw;
+padding-left: 0.5vw;
+}
+
+/* #part2.2 {
+border: 8px solid green;
+width: 2%;
+} */
 
 
 
@@ -210,33 +281,37 @@ footer ul li{
 /*DESKTOP CSS*/
 @media (min-width: 800px){
     #container div {
- 
-        flex-direction: row;
+    flex-direction: row;
     }
 
     #about {
-        flex-direction: row-reverse;
+    flex-direction: row-reverse;
     }
 
 
     .topbox h1 {
-
         display: none;
     }
     
     .bottombox h1{
-
         display:block;
     }
-
 
     .pg3 {
         flex-direction: row;
     }
     
+    .image-size-rect { 
+        
+        /* padding-right: 50vw; */
+    }
 
-
-
+    .rect-text {
+        width: 45%;
+        position: absolute;
+        top: 90px;
+        padding-left: 52vw;
+     }
 
 
 
